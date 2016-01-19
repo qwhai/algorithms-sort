@@ -1,0 +1,19 @@
+package org.algorithm.array.sort.client;
+
+import org.algorithm.array.sort.impl.BubbleBothwaySort;
+import org.algorithm.array.sort.impl.BubbleSort;
+import org.algorithm.array.sort.impl.QuickSort;
+import org.algorithm.array.sort.impl.RadixSort;
+import org.algorithm.array.sort.interf.Sortable;
+import org.utils.naga.containers.ArrayUtils;
+
+public class SortClient {
+
+    public static void main(String[] args) {
+        int[] array = {34, 23, 98, 76, 56, 54, 90, 12, 34, 65, 45, 78};
+        Sortable sortable = new QuickSort();
+        array = sortable.sort(array);
+        
+        ArrayUtils.show(array);
+    }
+}
