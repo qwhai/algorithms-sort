@@ -1,9 +1,6 @@
 package org.algorithm.array.sort.client;
 
-import org.algorithm.array.sort.impl.BubbleBothwaySort;
-import org.algorithm.array.sort.impl.BubbleSort;
 import org.algorithm.array.sort.impl.QuickSort;
-import org.algorithm.array.sort.impl.RadixSort;
 import org.algorithm.array.sort.interf.Sortable;
 import org.utils.naga.containers.ArrayUtils;
 
