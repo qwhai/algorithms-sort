@@ -25,13 +25,34 @@ public class MergeSort implements Sortable {
         return array;
     }
 
+    // 对数组进行分组的核心模块
     private void sortCore(int[] array) {
         int length = array.length;
-        merge(array, 0, length / 2, length - 1);
+        
+        int groupSize = 1;
+        while(groupSize < length) {
+            for (int i = 0; i < length; i += (groupSize * 2)) {
+                int low = i;
+                int hight = Math.min(i + groupSize * 2 - 1, length - 1);
+                merge(array, low, low + groupSize - 1, hight);
+            }
+            groupSize *= 2;
+        }
+        
+        // 对分组中的奇数情况进行另外处理
+        if (groupSize / 2 < length) {
+            int low = 0;
+            int hight = length - 1;
+            merge(array, low, groupSize / 2 - 1, hight);
+        }
     }
     
-    // 合并的核心算法
+    // 合并的核心模块
     private void merge(int[] array, int low, int mid, int hight) {
+        if (low >= hight) {
+            return;
+        }
+        
         int[] auxArray = new int[hight - low + 1];
         int index1 = low;
         int index2 = mid + 1;
@@ -49,14 +70,21 @@ public class MergeSort implements Sortable {
             }
         }
         
+        // 继续合并前半段数组中未被合并的部分
         while (index1 <= mid) {
-            auxArray[i++] = array[index1];
+            auxArray[i] = array[index1];
+            index1++;
+            i++;
         }
         
+        // 继续合并后半段数组中未被合并的部分
         while (index2 <= hight) {
-            auxArray[i++] = array[index2];
+            auxArray[i] = array[index2];
+            index2++;
+            i++;
         }
         
+        // 将合并好的序列写回到数组中
         for (int j = 0; j < auxArray.length; j++) {
             array[low + j] = auxArray[j];
         }
