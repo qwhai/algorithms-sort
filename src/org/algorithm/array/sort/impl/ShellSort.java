@@ -39,7 +39,8 @@ public class ShellSort implements Sortable {
     
     // 希尔排序的直接插入排序
     private void insert(int[] array, int offset, int step) {
-        int groupCount = array.length / step + (array.length % step > offset ? 1 : 0);
+        int arrayLength = array.length;
+        int groupCount = arrayLength / step + (arrayLength % step > offset ? 1 : 0);
         for (int i = 1; i < groupCount; i++) {
             int nextIndex = offset + step * i;
             int waitInsert = array[nextIndex];
