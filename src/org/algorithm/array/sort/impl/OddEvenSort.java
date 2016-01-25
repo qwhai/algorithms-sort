@@ -1,6 +1,7 @@
 package org.algorithm.array.sort.impl;
 
 import org.algorithm.array.sort.interf.Sortable;
+import org.utils.naga.containers.ArrayUtils;
 
 /**
  * <p>
@@ -19,8 +20,39 @@ public class OddEvenSort implements Sortable {
 
     @Override
     public int[] sort(int[] array) {
-        // TODO Auto-generated method stub
-        return null;
+        if (array == null) {
+            return null;
+        }
+
+        core(array);
+        
+        return array;
     }
 
+    private void core(int[] array) {
+        int arrayLength = array.length;
+        boolean oddSorted = false;
+        boolean evenSorted = false;
+        
+        while(!oddSorted || !evenSorted) {
+            int base = 0;
+            oddSorted = true;
+            evenSorted = true;
+            
+            for (int i = base; i < arrayLength - 1; i += 2) {
+                if (array[i] > array[i + 1]) {
+                    ArrayUtils.swap(array, i, i + 1);
+                    oddSorted = false;
+                }
+            }
+            
+            base = 1;
+            for (int i = base; i < arrayLength - 1; i += 2) {
+                if (array[i] > array[i + 1]) {
+                    ArrayUtils.swap(array, i, i + 1);
+                    evenSorted = false;
+                }
+            }
+        }
+    }
 }
