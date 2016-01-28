@@ -5,7 +5,7 @@ import org.utils.naga.containers.ArrayUtils;
 
 /**
  * <p>
- * 选择排序
+ * 选择排序算法
  * </p>
  * 2016年1月20日
  * 

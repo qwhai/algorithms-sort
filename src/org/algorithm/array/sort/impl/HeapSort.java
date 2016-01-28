@@ -20,4 +20,7 @@ public class HeapSort implements Sortable {
         return null;
     }
 
+    private void core(int[] array) {
+        
+    }
 }

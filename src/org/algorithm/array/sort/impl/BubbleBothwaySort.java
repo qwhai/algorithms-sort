@@ -1,7 +1,10 @@
 package org.algorithm.array.sort.impl;
 
+import java.util.Arrays;
+
 import org.algorithm.array.sort.interf.Sortable;
 import org.utils.naga.containers.ArrayUtils;
+import org.utils.naga.threads.ThreadUtils;
 
 /**
  * <p>
@@ -33,8 +36,12 @@ public class BubbleBothwaySort implements Sortable {
                 break;
             }
             
+            ThreadUtils.sleep(10);
+            
             backSort(array, arrayLength, backIndex);
             backIndex--;
+            
+            ThreadUtils.sleep(10);
         }
         
         return array;
@@ -45,6 +52,7 @@ public class BubbleBothwaySort implements Sortable {
         for (int i = preIndex + 1; i < length; i++) {
             if (array[preIndex] > array[i]) {
                 ArrayUtils.swap(array, preIndex, i);
+                ArrayUtils.show(array);
             }
         }
     }
@@ -54,6 +62,8 @@ public class BubbleBothwaySort implements Sortable {
         for (int i = backIndex - 1; i >= 0; i--) {
             if (array[i] > array[backIndex]) {
                 ArrayUtils.swap(array, i, backIndex);
+//                ArrayUtils.show(array);
+                System.err.println(Arrays.toString(array));
             }
         }
     }
