@@ -1,10 +1,7 @@
 package org.algorithm.array.sort.impl;
 
-import java.util.Arrays;
-
 import org.algorithm.array.sort.interf.Sortable;
 import org.utils.naga.containers.ArrayUtils;
-import org.utils.naga.threads.ThreadUtils;
 
 /**
  * <p>
@@ -24,6 +21,12 @@ public class BubbleBothwaySort implements Sortable {
             return null;
         }
         
+        core(array);
+        
+        return array;
+    }
+
+    private void core(int[] array) {
         int arrayLength = array.length;
         
         int preIndex = 0;
@@ -32,38 +35,32 @@ public class BubbleBothwaySort implements Sortable {
             preSort(array, arrayLength, preIndex);
             preIndex++;
             
+            ArrayUtils.show(array);
             if (preIndex >= backIndex) {
                 break;
             }
             
-            ThreadUtils.sleep(10);
-            
-            backSort(array, arrayLength, backIndex);
+            backSort(array, backIndex);
             backIndex--;
             
-            ThreadUtils.sleep(10);
+            ArrayUtils.show(array);
         }
-        
-        return array;
     }
-
+    
     // 从前向后排序
     private void preSort(int[] array, int length, int preIndex) {
         for (int i = preIndex + 1; i < length; i++) {
             if (array[preIndex] > array[i]) {
                 ArrayUtils.swap(array, preIndex, i);
-                ArrayUtils.show(array);
             }
         }
     }
     
     // 从后向前排序
-    private void backSort(int[] array, int length, int backIndex) {
+    private void backSort(int[] array, int backIndex) {
         for (int i = backIndex - 1; i >= 0; i--) {
             if (array[i] > array[backIndex]) {
                 ArrayUtils.swap(array, i, backIndex);
-//                ArrayUtils.show(array);
-                System.err.println(Arrays.toString(array));
             }
         }
     }

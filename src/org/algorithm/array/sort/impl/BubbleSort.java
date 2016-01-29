@@ -5,9 +5,9 @@ import org.utils.naga.containers.ArrayUtils;
 
 /**
  * <p>
- * 初级版冒泡排序(单向冒泡)
+ * 标准的冒泡排序算法
  * </p>
- * 2016年1月19日
+ * 2016年1月27日
  * 
  * @author <a href="http://weibo.com/u/5131020927">Q-WHai</a>
  * @see <a href="http://blog.csdn.net/lemon_tree12138">http://blog.csdn.net/lemon_tree12138</a>
@@ -21,17 +21,22 @@ public class BubbleSort implements Sortable {
             return null;
         }
         
-        int arrayLength = array.length;
-        for (int i = 0; i < arrayLength; i++) {
-            for (int j = i + 1; j < arrayLength; j++) {
-                if (array[i] > array[j]) {
-                    ArrayUtils.swap(array, i, j);
-                    ArrayUtils.show(array);
-                }
-            }
-        }
+        core(array);
         
         return array;
     }
-    
+
+    private void core(int[] array) {
+        
+        int arrayLength = array.length;
+        
+        for (int i = 0; i < arrayLength; i++) {
+            for (int j = arrayLength - 2; j >= i; j--) {
+                if (array[j] > array[j + 1]) {
+                    ArrayUtils.swap(array, j, j + 1);
+                }
+            }
+            ArrayUtils.show(array);
+        }
+    }
 }
