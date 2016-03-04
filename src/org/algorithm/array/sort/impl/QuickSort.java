@@ -1,5 +1,7 @@
 package org.algorithm.array.sort.impl;
 
+import java.util.Arrays;
+
 import org.algorithm.array.sort.interf.Sortable;
 
 /**
@@ -40,6 +42,8 @@ public class QuickSort implements Sortable {
         }
         
         int boundary = boundary(array, startIndex, endIndex);
+        
+        System.err.println(Arrays.toString(array));
         
         sortCore(array, startIndex, boundary - 1);
         sortCore(array, boundary + 1, endIndex);
