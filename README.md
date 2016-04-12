@@ -5,7 +5,7 @@
 -   插入排序
     -   [直接插入排序](http://blog.csdn.net/lemon_tree12138/article/details/50968422)
     -   折半插入排序
-    -   希尔排序
+    -   [希尔排序](http://blog.csdn.net/lemon_tree12138/article/details/51127533)
 -   交换排序
     -   [冒泡排序](http://blog.csdn.net/lemon_tree12138/article/details/50591859)
     -   [双向冒泡排序](http://blog.csdn.net/lemon_tree12138/article/details/50591859)
