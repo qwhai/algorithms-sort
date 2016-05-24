@@ -12,7 +12,7 @@
     -   [奇偶排序](http://blog.csdn.net/lemon_tree12138/article/details/50605563)
     -   [快速排序](http://blog.csdn.net/lemon_tree12138/article/details/50622744)
 -   选择排序
-    -   直接选择排序
+    -   [直接选择排序](http://blog.csdn.net/lemon_tree12138/article/details/51491810)
     -   堆排序
 -   归并排序
 -   基数排序
