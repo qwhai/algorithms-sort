@@ -17,6 +17,7 @@ public class HeapSort implements Sortable {
     @Override
     public int[] sort(int[] array) {
         // TODO Auto-generated method stub
+        core(array);
         return null;
     }
 

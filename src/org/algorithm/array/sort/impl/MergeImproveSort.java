@@ -4,16 +4,16 @@ import org.algorithm.array.sort.interf.Sortable;
 
 /**
  * <p>
- * 归并排序算法（弱分治归并）
+ * 归并排序算法的改进版（强分治归并）
  * </p>
- * Create Date: 2016年1月20日
+ * Create Date: 2016年5月26日
  * Last Modify: 2016年5月26日
  * 
  * @author <a href="http://weibo.com/u/5131020927">Q-WHai</a>
  * @see <a href="http://blog.csdn.net/lemon_tree12138">http://blog.csdn.net/lemon_tree12138</a>
- * @version 0.1.1
+ * @version 0.0.1
  */
-public class MergeSort implements Sortable {
+public class MergeImproveSort implements Sortable {
 
     @Override
     public int[] sort(int[] array) {
@@ -21,37 +21,47 @@ public class MergeSort implements Sortable {
             return null;
         }
         
-        sortCore(array);
+        sortCore(array, 0, array.length - 1);
         
         return array;
     }
 
-    // 对数组进行分组的核心模块
-    private void sortCore(int[] array) {
-        int length = array.length;
-        
-        int groupSize = 1;
-        while(groupSize < length) {
-            for (int i = 0; i < length; i += (groupSize * 2)) {
-                int low = i;
-                int hight = Math.min(i + groupSize * 2 - 1, length - 1);
-                
-                int middle = low + groupSize - 1;
-                merge(array, low, middle >= hight ? (low + hight) / 2 : middle, hight);
-            }
-            groupSize *= 2;
-        }
-        
-        // 对分组中的奇数情况进行另外处理
-        if (groupSize / 2 < length) {
-            int low = 0;
-            int hight = length - 1;
-            merge(array, low, groupSize / 2 - 1, hight);
+    /**
+     * 对数组进行分组的核心模块
+     * 
+     * @param array
+     *      待排序数组
+     * @param start
+     *      开始位置
+     * @param end
+     *      结束位置（end 为 数组可达下标）
+     */
+    private void sortCore(int[] array, int start, int end) {
+//        System.err.println("[ " + start + ", " + end + " ]");
+        if (start == end) {
+            return;
+        } else {
+            int middle = (start + end) / 2;
+            sortCore(array, start, middle);
+            sortCore(array, middle + 1, end);
+            merge(array, start, middle, end);
         }
     }
     
-    // 合并的核心模块
+    /**
+     * 合并的核心模块
+     * 
+     * @param array
+     *      待排序数组
+     * @param low
+     *      开始位置
+     * @param mid
+     *      中间位置
+     * @param hight
+     *      结束位置（end 为 数组可达下标）
+     */
     private void merge(int[] array, int low, int mid, int hight) {
+//        System.err.println("[ " + low + ", " + mid + ", " + hight + " ]");
         if (low >= hight) {
             return;
         }
@@ -92,4 +102,5 @@ public class MergeSort implements Sortable {
             array[low + j] = auxArray[j];
         }
     }
+
 }
