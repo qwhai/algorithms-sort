@@ -1,7 +1,7 @@
 package org.algorithm.array.sort.impl;
 
 import org.algorithm.array.sort.interf.Sortable;
-import org.utils.naga.containers.ArrayUtils;
+import org.core.utils.containers.ArrayUtils;
 
 /**
  * <p>
