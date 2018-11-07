@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b6cd93-c9ba-457b-a555-7ff2f3789cfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/BigFish.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bubble/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insert/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interf/SortImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parity/ParitySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quick/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quick/QuickSort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/client/SortClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/BubbleBothwaySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/BubbleOptimiSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/CombSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/CycleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/GnomeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/HeapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/HeapSort_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/InsertSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/MergeImproveSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/MonkeySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/OddEvenSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/QuickWithBubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/RadixSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/SampleSwapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/SelectInsert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/impl/ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/interf/Sortable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interf/Sortable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/algorithm/array/sort/utils/CellUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +26,7 @@
       <file leaf-file-name="SortClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="182">
               <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/quick/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="462">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="docComment;class#QuickSort#0" />
               </folding>
@@ -78,14 +47,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParitySort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parity/ParitySort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" column="55" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="55" />
-              <folding>
-                <element signature="docComment;class#ParitySort#0" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="266">
+                <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,7 +63,9 @@
         <entry file="file://$PROJECT_DIR$/src/quick/QuickSort.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="42">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -130,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/SortClient.java" />
         <option value="$PROJECT_DIR$/src/quick/QuickSort.md" />
         <option value="$PROJECT_DIR$/src/quick/QuickSort.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -164,7 +136,13 @@
               <item name="ArraySortAlgorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArraySortAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interf" type="462c0819:PsiDirectoryNode" />
+              <item name="bubble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArraySortAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArraySortAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="insert" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArraySortAlgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -294,24 +272,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32979852" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" visible="true" weight="0.32979852" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.32979852" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.32979852" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.2078473" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.2078473" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" visible="true" weight="0.2078473" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39342523" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -538,20 +516,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/quick/QuickSort.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="42">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -561,9 +531,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parity/ParitySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="126">
           <caret line="11" column="55" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="docComment;class#ParitySort#0" />
@@ -573,11 +553,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quick/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="462">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="docComment;class#QuickSort#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="266">
+            <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
