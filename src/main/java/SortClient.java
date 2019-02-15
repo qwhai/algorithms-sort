@@ -4,13 +4,63 @@ import insert.InsertSort;
 import interf.SortImpl;
 import parity.ParitySort;
 import quick.QuickSort;
+import shell.ShellSort;
 
 public class SortClient {
+
     public static void main(String[] args) {
-        int[] array = { 34, 23, 76, 56, 54, 12, 34, 65, 45, 9, 8, 7, 6, 5 };
-        //int[] array = { 3, 2, 1 };
+        testBubble();
+        testInsert();
+        testParity();
+        testQuick();
+        testShell();
+    }
+
+    private static void testBubble() {
+        int[] array = reset();
+        System.out.println("正在测试 Bubble Sort");
+
+        SortImpl sortable = new BubbleSort();
+        sortable.sort(array);
+
+        printArray(array);
+    }
+
+    private static void testInsert() {
+        int[] array = reset();
+        System.out.println("正在测试 Insert Sort");
+
+        SortImpl sortable = new InsertSort();
+        sortable.sort(array);
+
+        printArray(array);
+    }
+
+    private static void testParity() {
+        int[] array = reset();
+        System.out.println("正在测试 Parity Sort");
+
+        SortImpl sortable = new ParitySort();
+        sortable.sort(array);
+
+        printArray(array);
+    }
+
+    private static void testQuick() {
+        int[] array = reset();
+        System.out.println("正在测试 Quick Sort");
 
         SortImpl sortable = new QuickSort();
+        sortable.sort(array);
+
+        printArray(array);
+    }
+
+    private static void testShell() {
+        int[] array = reset();
+        System.out.println("正在测试 Shell Sort");
+
+        SortImpl sortable = new ShellSort();
         sortable.sort(array);
 
         printArray(array);
@@ -24,5 +74,9 @@ public class SortClient {
         }
 
         System.out.println("[" + sb.toString() + "]");
+    }
+
+    private static int[] reset() {
+        return new int[] { 34, 23, 76, 56, 54, 12, 34, 65, 45, 9, 8, 7, 6, 5 };
     }
 }
