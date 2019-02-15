@@ -5,10 +5,12 @@ import interf.SortImpl;
 import parity.ParitySort;
 import quick.QuickSort;
 import shell.ShellSort;
+import selection.SelectionSort;
 
 public class SortClient {
 
     public static void main(String[] args) {
+        testSelection();
         testBubble();
         testInsert();
         testParity();
@@ -61,6 +63,16 @@ public class SortClient {
         System.out.println("正在测试 Shell Sort");
 
         SortImpl sortable = new ShellSort();
+        sortable.sort(array);
+
+        printArray(array);
+    }
+
+    private static void testSelection() {
+        int[] array = reset();
+        System.out.println("正在测试 Selection Sort");
+
+        SortImpl sortable = new SelectionSort();
         sortable.sort(array);
 
         printArray(array);

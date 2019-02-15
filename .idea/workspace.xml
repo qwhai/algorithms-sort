@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e46dd94-bde9-4300-97d5-a6eaa4fc4436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interf/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shell/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shell/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selection/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selection/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SortClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quick/QuickSort.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quick/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,29 +18,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shell/ShellSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="docComment;class#ShellSort#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="79" column="76" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="76" />
+            <state relative-caret-position="168">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testBubble#0;class#SortClient#0" />
                 <element signature="method#testInsert#0;class#SortClient#0" />
                 <element signature="method#testParity#0;class#SortClient#0" />
                 <element signature="method#testQuick#0;class#SortClient#0" />
+                <element signature="method#testShell#0;class#SortClient#0" />
                 <element signature="method#printArray#0;class#SortClient#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/selection/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,10 +85,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/interf/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/SortClient.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/shell/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/shell/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selection/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/selection/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SortClient.java" />
       </list>
     </option>
   </component>
@@ -138,22 +139,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ArraySortAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArraySortAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quick" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArraySortAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArraySortAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -162,7 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550220433928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550225986151" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -280,35 +265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="196">
-            <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interf/SortImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SortClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="79" column="76" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testBubble#0;class#SortClient#0" />
-            <element signature="method#testInsert#0;class#SortClient#0" />
-            <element signature="method#testParity#0;class#SortClient#0" />
-            <element signature="method#testQuick#0;class#SortClient#0" />
-            <element signature="method#printArray#0;class#SortClient#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,12 +302,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shell/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="docComment;class#ShellSort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selection/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selection/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testBubble#0;class#SortClient#0" />
+            <element signature="method#testInsert#0;class#SortClient#0" />
+            <element signature="method#testParity#0;class#SortClient#0" />
+            <element signature="method#testQuick#0;class#SortClient#0" />
+            <element signature="method#testShell#0;class#SortClient#0" />
+            <element signature="method#printArray#0;class#SortClient#0" />
           </folding>
         </state>
       </provider>
