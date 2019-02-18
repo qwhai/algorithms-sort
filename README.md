@@ -14,7 +14,7 @@
     -   [奇偶排序](src/main/java/parity/ParitySort.java)
     -   [快速排序](src/main/java/quick/QuickSort.java)
 -   选择排序
-    -   [直接选择排序](http://blog.csdn.net/lemon_tree12138/article/details/51491810)
+    -   [直接选择排序](src/main/java/selection/SelectionSort.java)
     -   堆排序
 -   [归并排序](http://blog.csdn.net/lemon_tree12138/article/details/51517753)
 -   [基数排序](http://blog.csdn.net/lemon_tree12138/article/details/51695211)
