@@ -17,7 +17,7 @@
     -   [直接选择排序](src/main/java/selection/SelectionSort.java)
     -   堆排序
 -   [归并排序](http://blog.csdn.net/lemon_tree12138/article/details/51517753)
--   [基数排序](http://blog.csdn.net/lemon_tree12138/article/details/51695211)
+-   [基数排序](src/main/java/radix/RadixSort.java)
 -   排序算法番外篇
     -   梳排序
     -   循环排序
