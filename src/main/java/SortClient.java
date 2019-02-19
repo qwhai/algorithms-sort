@@ -7,10 +7,12 @@ import quick.QuickSort;
 import shell.ShellSort;
 import selection.SelectionSort;
 import radix.RadixSort;
+import merge.SimpleMergeSort;
 
 public class SortClient {
 
     public static void main(String[] args) {
+        testSimpleMerge();
         testRadix();
         testSelection();
         testBubble();
@@ -18,6 +20,16 @@ public class SortClient {
         testParity();
         testQuick();
         testShell();
+    }
+
+    private static void testSimpleMerge() {
+        int[] array = reset();
+        System.out.println("正在测试 Simple Merge Sort");
+
+        SortImpl sortable = new SimpleMergeSort();
+        sortable.sort(array);
+
+        printArray(array);
     }
 
     private static void testRadix() {
