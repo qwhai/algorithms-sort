@@ -1,1 +1,3 @@
-### Merge Sort
+### Simple Merge Sort
+
+### Strong Merge Sort

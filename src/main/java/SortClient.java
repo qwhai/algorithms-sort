@@ -8,10 +8,12 @@ import shell.ShellSort;
 import selection.SelectionSort;
 import radix.RadixSort;
 import merge.SimpleMergeSort;
+import merge.StrongMergeSort;
 
 public class SortClient {
 
     public static void main(String[] args) {
+        testStrongMerge();
         testSimpleMerge();
         testRadix();
         testSelection();
@@ -20,6 +22,16 @@ public class SortClient {
         testParity();
         testQuick();
         testShell();
+    }
+
+    private static void testStrongMerge() {
+        int[] array = reset();
+        System.out.println("正在测试 Simple Strong Sort");
+
+        SortImpl sortable = new StrongMergeSort();
+        sortable.sort(array);
+
+        printArray(array);
     }
 
     private static void testSimpleMerge() {
