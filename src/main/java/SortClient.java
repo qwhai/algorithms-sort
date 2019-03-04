@@ -1,5 +1,6 @@
 
 import bubble.BubbleSort;
+import bubble.TwowayBubbleSort;
 import insert.InsertSort;
 import interf.SortImpl;
 import parity.ParitySort;
@@ -13,7 +14,8 @@ import merge.StrongMergeSort;
 public class SortClient {
 
     public static void main(String[] args) {
-        testStrongMerge();
+        testTwowayBubble();
+        // testStrongMerge();
         testSimpleMerge();
         testRadix();
         testSelection();
@@ -22,6 +24,16 @@ public class SortClient {
         testParity();
         testQuick();
         testShell();
+    }
+
+    private static void testTwowayBubble() {
+        int[] array = reset();
+        System.out.println("正在测试 Two-way Bubble Sort");
+
+        SortImpl sortable = new TwowayBubbleSort();
+        sortable.sort(array);
+
+        printArray(array);
     }
 
     private static void testStrongMerge() {
