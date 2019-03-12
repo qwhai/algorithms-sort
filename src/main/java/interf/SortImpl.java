@@ -16,7 +16,9 @@ public class SortImpl implements Sortable {
      * @param j
      *      索引 j
      */
-    protected void swap(int[] arr, int i, int j){
+    protected void swap(int[] arr, int i, int j) {
+        if (i == j) return;
+
         arr[i] += arr[j];
         arr[j] = arr[i] - arr[j];
         arr[i] = arr[i] - arr[j];

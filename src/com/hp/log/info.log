@@ -1,0 +1,24 @@
+2019-03-13 00:43:55 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSort.sort(HeapSort.java:37) ]
+INFO:排序结束，结果：
+2019-03-13 00:44:13 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSort.sort(HeapSort.java:37) ]
+INFO:排序结束，结果：
+2019-03-13 00:45:24 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort(HeapSortTest.java:16) ]
+INFO:正在测试 Heap Sort
+2019-03-13 00:45:24 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort(HeapSortTest.java:21) ]
+INFO:排序结束，结果：
+2019-03-13 00:47:40 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort(HeapSortTest.java:16) ]
+INFO:正在测试 Heap Sort
+2019-03-13 00:47:40 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort(HeapSortTest.java:21) ]
+INFO:排序结束，结果：
+2019-03-13 00:49:37 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort(HeapSortTest.java:16) ]
+INFO:正在测试 Heap Sort
+2019-03-13 00:49:37 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort(HeapSortTest.java:21) ]
+INFO:排序结束，结果：
+2019-03-13 00:53:05 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort1(HeapSortTest.java:16) ]
+INFO:正在测试 Heap Sort
+2019-03-13 00:53:05 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort1(HeapSortTest.java:21) ]
+INFO:排序结束，结果：
+2019-03-13 00:53:05 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort2(HeapSortTest.java:29) ]
+INFO:正在测试 Heap Sort
+2019-03-13 00:53:05 上午 [Thread: main][ Class:heap.HeapSort >> Method: heap.HeapSortTest.testSort2(HeapSortTest.java:34) ]
+INFO:排序结束，结果：
