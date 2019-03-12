@@ -8,25 +8,25 @@ import interf.SortImpl;
 public class ParitySort extends SortImpl {
 
     @Override
-    public void sort(int[] array) {
-        if (null == array || 1 >= array.length) return;
+    public void sort(int[] arr) {
+        if (null == arr || 1 >= arr.length) return;
 
         boolean order = false;
         while (!order){
             order = true;
 
-            for(int i = 0; i < array.length; i+=2){
-                if (i + 1 >= array.length) { break; }
-                if (array[i] > array[i+1]){
-                    swap(array, i, i+1);
+            for(int i = 0; i < arr.length; i+=2){
+                if (i + 1 >= arr.length) { break; }
+                if (arr[i] > arr[i+1]){
+                    swap(arr, i, i+1);
                     order = false;
                 }
             }
 
-            for(int i = 1; i < array.length; i+=2){
-                if (i + 1 >= array.length) { break; }
-                if (array[i] > array[i+1]){
-                    swap(array, i, i+1);
+            for(int i = 1; i < arr.length; i+=2){
+                if (i + 1 >= arr.length) { break; }
+                if (arr[i] > arr[i+1]){
+                    swap(arr, i, i+1);
                     order = false;
                 }
             }

@@ -7,7 +7,7 @@ import interf.SortImpl;
  */
 public class StrongMergeSort extends SortImpl {
     @Override
-    public void sort(int[] array) {
-        super.sort(array);
+    public void sort(int[] arr) {
+        super.sort(arr);
     }
 }

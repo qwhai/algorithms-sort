@@ -8,13 +8,13 @@ import interf.SortImpl;
 public class BubbleSort extends SortImpl {
 
     @Override
-    public void sort(int[] array) {
-        if (null == array) return;
+    public void sort(int[] arr) {
+        if (null == arr) return;
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[i] > array[j]) {
-                    swap(array, i, j);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    swap(arr, i, j);
                 }
             }
         }

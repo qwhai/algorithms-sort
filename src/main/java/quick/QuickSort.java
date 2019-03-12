@@ -14,10 +14,10 @@ import interf.SortImpl;
 public class QuickSort extends SortImpl {
 
     @Override
-    public void sort(int[] array) {
-        if (null == array || 1 >= array.length) { return; }
+    public void sort(int[] arr) {
+        if (null == arr || 1 >= arr.length) { return; }
 
-        sort(array, 0, array.length - 1);
+        sort(arr, 0, arr.length - 1);
     }
 
     private void sort(int[] arr, int start, int end){
