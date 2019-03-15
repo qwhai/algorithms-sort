@@ -1,5 +1,9 @@
 ### algorithms-sort（各个排序算法）
 
+[![lang](https://img.shields.io/badge/lang-java-brightgreen.svg)]()
+[![ide](https://img.shields.io/badge/ide-IntelliJ%20IDEA-brightgreen.svg)]()
+[![maven](https://img.shields.io/badge/maven-3.6.0-brightgreen.svg)]()
+
 > 由于此源码旨在描述算法原理，所以若其中存在一些临界细节判断或空对象的bug，请忽视，这里并没有做细节判断。特此声明。
 
 ### 目录
